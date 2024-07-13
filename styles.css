@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* navbar styles */
+.navbar {
+    width: 100%;
+    padding: 0.8rem;
+    text-align: center;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-color: white;
+}
+
+.fa-search {
+    position: relative;
+    right: -30px;
+}
+
+.search-box {
+    width: 80vw;
+    border: none;
+    padding: 0.8rem 2rem;
+    border-radius: 0.2rem;
+    border: solid 0.5px lightgray;
+}
+
+.btn {
+    border: none;
+    border-radius: 0.2rem;
+    padding: 0.8rem 2rem;
+}
+
+.btn:hover {
+    background-color: royalblue;
+    color: white;
+}
+
+.add-btn {
+    color: white;
+    background-color: royalblue;
+}
+
+/* tabs styles */
+.sub-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tabs-wrapper {
+    margin: 1rem 0;
+}
+
+.tabs-wrapper .btn {
+    margin-right: 1rem;
+} 
+
+/* main section styles */
+.main-wrapper {
+    width: 85vw;
+    margin: 2rem auto;
+    margin-top: 7rem;
+}
+
+/* cards section */
+.cards-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 33.3%);
+    margin-top: 1rem;
+    align-items: center;
+    /* gap: 1%; */
+}
+
+.card {
+    border-radius: 0.5rem;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.3);
+    padding: 2rem;
+    margin: 1rem;
+}
+
+.card:hover {
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.5);
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.card-category {
+    border-radius: 50rem;
+    padding: 0.5rem 2rem;
+}
+
+.home {
+    border: solid 0.5px green;
+    background-color: lightgreen;
+    color: green;
+}
+
+.personal {
+    border: solid 0.5px orange;
+    background-color: lightgoldenrodyellow;
+    color: orange;
+}
+
+.business {
+    border: solid 0.5px royalblue;
+    background-color: lightblue;
+    color: royalblue;
+}
+
+.card-actions {
+    width: 3vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-footer {
+    margin-top: 1rem;
+    text-align: right;
+    font-size: small;
+    color: gray;
+}
